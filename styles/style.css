@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+#cityName {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#weatherButton {
+    background-color: rgb(97, 216, 97);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#weatherButton:hover {
+    background-color: rgb(83, 231, 83);
+}
+
+.weatherForm {
+    margin-top: 20px;
+}
+
+#displayWeatherInfo {
+    border: 2px solid;
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+    color: #1a237e;
+}
+
+#city {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#humidity {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#skyState {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#emojie {
+    font-size: 85px;
+}

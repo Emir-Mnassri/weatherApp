@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Today</title>
     <script src="scripts/script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="icons/weather.webp" type="image/webp">
 </head>
 <body>
     <form action="POST" class="weatherForm">
-        <input type="text" name="" id="">
-        <input type="submit" value="Get Weather">
+        <input type="text" name="" id="cityName">
+        <input type="submit" value="Get Weather" id="weatherButton">
         <div id="displayWeatherInfo">
-            <div id="city"></div>
-            <div id="degrees"></div>
-            <div id="humidity"></div>
-            <div id="skyState"></div>
-            <div id="emojie"></div>
+            <div id="city">Dallas</div>
+            <div id="temperature">45.0°F</div>
+            <div id="humidity">Humidity: 63%</div>
+            <div id="skyState">Clear sky</div>
+            <div id="emojie">🌤️</div>
         </div>
     </form>
 </body>
