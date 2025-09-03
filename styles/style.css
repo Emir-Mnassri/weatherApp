@@ -23,7 +23,7 @@ body {
     font-size: 14px;
     padding: 5px 15px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: none;
     cursor: pointer;
 }
 
@@ -52,6 +52,7 @@ body {
     0 2px 2px rgba(0, 0, 0, 0.04),
     0 4px 4px rgba(0, 0, 0, 0.04),
     0 8px 8px rgba(0, 0, 0, 0.04);
+    display: none;
 }
 
 #city {
@@ -64,12 +65,7 @@ body {
     font-weight: bold;
 }
 
-#humidity {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#skyState {
+#humidity, #skyState, #errorDisplay {
     font-weight: bold;
     font-size: 20px;
 }

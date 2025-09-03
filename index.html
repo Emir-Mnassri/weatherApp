@@ -9,15 +9,16 @@
     <link rel="shortcut icon" href="icons/weather.webp" type="image/webp">
 </head>
 <body>
-    <form action="POST" class="weatherForm">
-        <input type="text" name="" id="cityName">
+    <form class="weatherForm">
+        <input type="text" name="" id="cityName" placeholder="Enter City">
         <input type="submit" value="Get Weather" id="weatherButton">
         <div id="displayWeatherInfo">
-            <div id="city">Dallas</div>
-            <div id="temperature">45.0°F</div>
-            <div id="humidity">Humidity: 63%</div>
-            <div id="skyState">Clear sky</div>
-            <div id="emojie">🌤️</div>
+            <div id="city"></div>
+            <div id="temperature"></div>
+            <div id="humidity"></div>
+            <div id="skyState"></div>
+            <div id="emojie"></div>
+            <div id="errorDisplay"></div>
         </div>
     </form>
 </body>
